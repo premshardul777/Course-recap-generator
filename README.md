@@ -1,3 +1,4 @@
+
 # Course Recap Generator
 
 Give it a course PDF; get a source-grounded summary, key concepts, a rendered concept diagram, and an independent review.
@@ -54,3 +55,5 @@ a read-only reviewer in its own context for independent checking, and a single-p
 
 ## Run it yourself (free)
 See docs/run-it-yourself.md for setup, and docs/ui-and-deployment.md for the web UI and deployment.
+
+# Course-recap-generator
