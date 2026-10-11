@@ -1,0 +1,7 @@
+__pycache__/
+.venv/
+node_modules/
+.env
+auth.json
+outputs/*/opencode-events.jsonl
+.DS_Store

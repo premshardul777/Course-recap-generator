@@ -1,0 +1,45 @@
+graph TD
+  AI[Artificial Intelligence]
+  AgenticAI[Agentic AI]
+  Tech[Technology]
+  FutureTech[Future Technology]
+  Multimodal[Multimodal Reasoning]
+  Memory[Long-term Memory]
+  ToolUse[Tool Use]
+  AgenticWF[Agentic Workflows]
+  DigitalColleague[Digital Colleague]
+  ProdLeap[Productivity Leap]
+  AgentOrch[Agent Orchestration]
+  BlackBox[Black Box Problem]
+  BiasMit[Bias Mitigation]
+  Deepfakes[Deepfakes and Identity]
+  Trust[Trust]
+  EUAIAct[EU AI Act]
+  Accountability[Accountability]
+  ProofGov[Proof of Governance]
+  Copyright[Copyright]
+  Law[Regulation and Law]
+  AGI[AGI]
+  SustAI[Sustainable AI]
+  EnergyEff[Energy Efficiency]
+  HumanSymp[Human-AI Sympathy]
+
+  AgenticAI -->|is-a| AI
+  AGI -->|is-a| AI
+  FutureTech -->|part-of| Tech
+  Multimodal -->|part-of| AgenticAI
+  Memory -->|part-of| AgenticAI
+  AgenticWF -->|uses| ToolUse
+  AgenticWF -->|example-of| AgenticAI
+  DigitalColleague -->|is-a| AI
+  ProdLeap -->|depends-on| AgentOrch
+  AgentOrch -->|uses| AgenticAI
+  BlackBox -->|contrasts-with| Trust
+  BiasMit -->|produces| Trust
+  Deepfakes -->|part-of| Trust
+  EUAIAct -->|produces| Accountability
+  EUAIAct -->|part-of| Law
+  Copyright -->|part-of| Law
+  Accountability -->|depends-on| ProofGov
+  SustAI -->|depends-on| EnergyEff
+  HumanSymp -->|contrasts-with| AGI

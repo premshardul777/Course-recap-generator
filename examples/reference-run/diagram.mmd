@@ -1,0 +1,10 @@
+graph TD
+  H[Agent Harness]
+  H -->|uses| M[MCP Servers]
+  SA[Sub-agents] -->|part-of| H
+  PM[Plan Mode] -->|produces| PL[Plan]
+  SK[Skills] -->|enables| CO[Consistent Output]
+  M -->|enables| PR[PDF Reader]
+  M -->|enables| DR[Diagram Renderer]
+  SA -.example.-> RV[Reviewer of a summary]
+  SK -.example.-> KC[Extract key concepts]
