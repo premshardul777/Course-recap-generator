@@ -1,6 +1,8 @@
 
 # Course Recap Generator
 
+**Live demo:** https://course-recap-generator-8jo848qcxzvq9c5nd4cje6.streamlit.app/
+
 Give it a course PDF; get a source-grounded summary, key concepts, a rendered concept diagram, and an independent review.
 Built with **OpenCode** (the required agent harness) for the "Day 6 - AI Coding Techniques" assignment.
 
